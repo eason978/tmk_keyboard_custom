@@ -1,3 +1,13 @@
+This is for My GH60 which is made by EEPW TU60.
+http://forum.eepw.com.cn/thread/276032/1
+Need to clone tmk_core_custom to this project.
+How to Make FW
+cd tmk_keyboard_custom/keyboard/gh60
+Modify Makefile, use keymap_Poker2.c
+    SRC := keymap_poker2.c $(SRC)
+make
+output : gh60_lufa.hex
+
 TMK Keyboard Firmware Collection
 ================================
 This repository includes keyboard and converter firmware projects built with [`tmk_core`][tmk_core] keyboard library.
